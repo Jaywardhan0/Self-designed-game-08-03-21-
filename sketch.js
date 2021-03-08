@@ -23,7 +23,7 @@ bad1 = loadImage("bad1.png")
 }
 function setup(){
     createCanvas(500,500)
-    play= createSprite(10,10,30,10)
+    play= createSprite(50,50,30,10)
     Player= createSprite(250,250,20,20)
     Player.addImage(good)
     Player.scale = 0.12
