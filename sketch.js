@@ -41,13 +41,13 @@ function draw(){
     Player.y = mouseY
     console.log(gameState);
     if (gameState=== PLAY){
-        if (keyDown("space")){
+        if (keyDown("space"||touches.length>0)){
             zombie();
             Enemy();
             Enemy2();
             Enemy3();
             text("For better experience don't longpress spacebar",100,0)
-
+            touches = [];
     }
     if(mousePressedOver(play)){
             zombie();
