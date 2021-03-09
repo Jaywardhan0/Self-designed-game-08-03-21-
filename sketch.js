@@ -49,6 +49,7 @@ function draw(){
             text("For better experience don't longpress spacebar",100,0)
             touches = [];
     }
+    }
     if(mousePressedOver(play)){
             zombie();
             Enemy();
