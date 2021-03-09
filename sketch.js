@@ -41,7 +41,7 @@ function draw(){
     Player.y = mouseY
     console.log(gameState);
     if (gameState=== PLAY){
-        if (keyDown("space")||touches.length>0){
+        if (keyDown("space")||touches.length>0|| mousePressedOver(play){
             zombie();
             Enemy();
             Enemy2();
